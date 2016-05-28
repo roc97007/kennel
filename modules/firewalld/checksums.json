@@ -1,0 +1,21 @@
+{
+  "Changelog": "e1ff54bbb6e852dd358aa24577d192b5",
+  "LICENSE": "8c16666ae6c159876a0ba63099614381",
+  "README": "ddc6e7784ba114fba8491be7a611664f",
+  "examples/direct.pp": "64623e2752c323f05cc2c6879353c19c",
+  "examples/lockdown_whitelist.pp": "09045a3b8cb1af6bbce122831bd0009a",
+  "examples/service.pp": "e404698ad943672be31f474cf0ecf949",
+  "examples/zone.pp": "2b84413372db63315b9f1b8be45275f8",
+  "manifests/configuration.pp": "4f88d4e7096eb7644c4e4e340d614024",
+  "manifests/direct.pp": "23d5a44fd51800f8efda3072d072af91",
+  "manifests/init.pp": "8983036918460f661338a114b554e37c",
+  "manifests/lockdown_whitelist.pp": "c6afba5563820139a72a2f3c04dfa97e",
+  "manifests/service.pp": "d35ed6417662f31dc99c0b0dde4f59d7",
+  "manifests/zone.pp": "06a6a54d77e37723c09e8342d08b9a41",
+  "metadata.json": "4b72ac76583591fb6fe7ffccf8b987b3",
+  "templates/direct.xml.erb": "bda550ad569c3b2957538a28b1dcfd20",
+  "templates/firewalld.conf.erb": "d3e625e23ef59c7532ba040ce45eb93c",
+  "templates/lockdown-whitelist.xml.erb": "33ffc0e683dfd2f4b3af48779cc96a3c",
+  "templates/service.xml.erb": "28b051a8790b4e5a0f35c171c499725c",
+  "templates/zone.xml.erb": "45d372a07932920f5db1d0e5acaece21"
+}

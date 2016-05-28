@@ -1,0 +1,16 @@
+{
+  "name": "jpopelka-firewalld",
+  "version": "0.2.2",
+  "author": "Jiri Popelka <jpopelka@redhat.com>",
+  "summary": "Puppet Module for Firewalld",
+  "license": "GPLv2+",
+  "source": "https://github.com/jpopelka/puppet-firewalld.git",
+  "project_page": "(https://forge.puppetlabs.com/jpopelka/firewalld)",
+  "issues_url": "https://github.com/jpopelka/puppet-firewalld/issues",
+  "operatingsystem_support": [
+  
+  ],
+  "dependencies": [
+  
+  ]
+}
