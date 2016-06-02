@@ -47,4 +47,11 @@ node 'cody' {               #settings for node "cody"
                 listen_port => '8888',
                 www_root => '/opt/nwea/html',
 	}
+	file { "/etc/cron.d/puppet":
+		ensure => file,
+		owner => root,
+		group => root,
+		mode => 0644,
+		content => inline_template("<%= scope.function_fqdn_rand([60]) %> * * * * root /usr/bin/puppet agent --onetime --no-daemonize --no-splay\n"),
+	}
 }
